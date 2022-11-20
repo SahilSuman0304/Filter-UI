@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <title>Filter Profession</title>
+</head>
+<body>
+  <h1>Filter Ui card via their profession</h1>
+
+  <div class="dropdown">
+    <div class="select">
+      <span class = "selected">Professional</span>
+      <div class="caret"></div>
+    </div>
+    <ul class="menu">
+      <li class="active" value="1">Professional</li>
+      <li value="2">Developer</li>
+      <li value="3">Admin</li>
+    </ul>
+  </div>
+<!-- info -->
+
+  <div id="outerdiv"></div>
+
+
+<!-- filter -->
+  <div class="filter-container">
+    <button class="filter" onclick="filter()">
+     Filter 
+    </button>
+  </div>
+
+  <script src="./srcipt.js"></script>
+</body>
+</html>
